@@ -21,7 +21,7 @@ The system accepts dental X-ray images, classifies them (e.g., "Cavity", "No Cav
 ## 🛠️ Technologies Used
 
 **Languages & Libraries**:
-- Python, JavaScript, HTML/CSS
+- Python, PHP, HTML/CSS
 
 **Data Processing**:
 - OpenCV, Pillow, NumPy, Pandas, matplotlib
@@ -30,16 +30,16 @@ The system accepts dental X-ray images, classifies them (e.g., "Cavity", "No Cav
 - TensorFlow/Keras or PyTorch, sklearn
 
 **Explainability**:
-- Grad-CAM (Keras or PyTorch), NumPy
+- Grad-CAM (Keras / PyTorch), NumPy
 
 **Backend**:
-- Flask or FastAPI, Gunicorn, JSON
+- FastAPI, Gunicorn, JSON, Laravel
 
 **Frontend**:
-- React.js / HTML / CSS / Bootstrap / TailwindCSS, Axios / Fetch API
+- HTML / CSS / Bootstrap / TailwindCSS, Axios / Fetch API
 
 **Deployment**:
-- Streamlit, Flask server, Docker (optional), Heroku or AWS (optional)
+- Streamlit, Flask server, Docker, Heroku or AWS
 
 ---
 
