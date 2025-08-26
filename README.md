@@ -12,6 +12,7 @@ The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unh
 <div align="center">
   <img src="Images/results.jpg" alt="Home" width="600"/>
 </div>
+
 ---
 
 ## 🎯 Objectives
