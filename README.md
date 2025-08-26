@@ -6,6 +6,10 @@ This project focuses on building a smart dental diagnostic system that uses **de
 
 The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unhealthy Teeth"), and returns both the prediction and a heatmap indicating the region of interest.
 
+<div align="center">
+  <img src="Images/home.jpg" alt="Home" width="600"/>
+</div>
+
 ---
 
 ## 🎯 Objectives
