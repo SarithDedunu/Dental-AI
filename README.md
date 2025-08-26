@@ -4,7 +4,7 @@
 
 This project focuses on building a smart dental diagnostic system that uses **deep learning** and **explainable AI** to classify dental X-ray images. The goal is to help dental professionals by automating cavity detection and visualizing how the model makes decisions using techniques like **Grad-CAM**.
 
-The system accepts dental X-ray images, classifies them (e.g., "Cavity", "No Cavity", "Tooth Decay"), and returns both the prediction and a heatmap indicating the region of interest.
+The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unhealthy Teeth"), and returns both the prediction and a heatmap indicating the region of interest.
 
 ---
 
@@ -33,13 +33,13 @@ The system accepts dental X-ray images, classifies them (e.g., "Cavity", "No Cav
 - Grad-CAM (Keras or PyTorch), NumPy
 
 **Backend**:
-- Flask or FastAPI, Gunicorn, JSON
+- Flask, FastAPI, Gunicorn, JSON, Laravel
 
 **Frontend**:
-- React.js / HTML / CSS / Bootstrap / TailwindCSS, Axios / Fetch API
+- HTML / CSS / Bootstrap / TailwindCSS, Axios / Fetch API
 
 **Deployment**:
-- Streamlit, Flask server, Docker (optional), Heroku or AWS (optional)
+- Streamlit, Flask server, Docker, AWS
 
 ---
 
