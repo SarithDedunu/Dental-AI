@@ -4,17 +4,19 @@
 
 This project focuses on building a smart dental diagnostic system that uses **deep learning** and **explainable AI** to classify dental X-ray images. The goal is to help dental professionals by automating cavity detection and visualizing how the model makes decisions using techniques like **Grad-CAM**.
 
-The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unhealthy Teeth"), and returns both the prediction and a heatmap indicating the region of interest.
+The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unhealthy Teeth"), and returns both the prediction and a heatmap indicating the region of interest. [Watch the live demo](https://drive.google.com/file/d/1sZEcJUYynnIG0d-j7VbRLou-Of5xIjlf/view?usp=drive_link)
 
 <div align="center">
   <img src="Images/home.jpg" alt="Home" width="600"/>
 </div>
-
+<div align="center">
+  <img src="Images/results.jpg" alt="Home" width="600"/>
+</div>
 ---
 
 ## 🎯 Objectives
 
-- Collect and preprocess dental X-ray datasets.
+- Collect and preprocess dental X-ray datasets. [Dataset](https://drive.google.com/file/d/1olZweNe-GEKNhceDcuQ0iRyNiysTlUUK/view?usp=drive_link)
 - Train a convolutional neural network (CNN) for accurate classification.
 - Apply **Grad-CAM** to explain model predictions.
 - Build an API to serve predictions and heatmaps.
