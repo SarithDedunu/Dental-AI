@@ -52,7 +52,7 @@ The system accepts dental X-ray images, classifies them ("Healthy Teeth" or "Unh
 
 ## 🖥 Deep Learning Model Selection
 
-✅ Our Choice: ResNet
+✅ Our Choice: ResNet50
 
 We adopted ResNet for this project because it offers a balance of accuracy, efficiency, and robustness when working with medical images like dental panoramic X-rays. Its residual connections allow deep feature extraction, making it well-suited for detecting subtle dental abnormalities.
 
