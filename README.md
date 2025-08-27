@@ -148,3 +148,35 @@ This project requires both a Laravel frontend-backend and a Python flask API. Fo
     ```
 
 4.  **Access the Application:** Open your web browser and navigate to `http://127.0.0.1:8000` to access the web interface.
+
+
+📁 Project Structure
+
+dental-xray-ai/
+├─ model/
+│  ├─ app.py                 # Flask/FastAPI backend for predictions + Grad-CAM
+│  ├─ new_efficientnet_dentalAI_model.h5
+│  ├─ resnet50_model.h5
+│  ├─ utils/
+│  │  ├─ preprocessing.py
+│  │  ├─ gradcam.py
+│  │  └─ inference.py
+│  └─ requirements.txt
+├─ web/                      # Laravel app
+│  ├─ app/Http/Controllers/PredictionController.php
+│  ├─ resources/views/dental-ai.blade.php
+│  ├─ routes/web.php
+│  └─ ...
+├─ data/
+│  ├─ train/healthy | unhealthy
+│  ├─ val/healthy   | unhealthy
+│  └─ test/healthy  | unhealthy
+├─ notebooks/
+│  ├─ 01_exploration.ipynb
+│  ├─ 02_train_resnet50.ipynb
+│  └─ 03_eval_gradcam.ipynb
+├─ docs/                     # Exported PDF samples, screenshots, reports
+├─ .env.example              # Laravel env template
+├─ .env.model.example        # Python API env template
+└─ README.md
+
